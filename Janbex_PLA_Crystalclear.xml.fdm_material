@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material">
+    <metadata>
+        <name>
+            <brand>Janbex</brand>
+            <material>PLA</material>
+            <color>Crystal clear</color>
+            <label>Crystal clear PLA</label>
+        </name>
+        <version>1</version>  
+        <GUID>b51e3e7f-b16b-4106-9519-e962c6a5cdb4</GUID>
+        <color_code>#ffffff</color_code>
+        <description>Nozzel 190-210°C, Cooling 100%. Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+        <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+    </metadata>
+    <properties>
+        <diameter>1.75</diameter>
+        <density>1.22</density>
+        <weight>1000</weight>
+    </properties>
+     <settings>
+        <setting key="print temperature">190.0</setting>
+        <setting key="heated bed temperature">40.0</setting>
+        <setting key="standby temperature">150.0</setting>
+        <setting key="print cooling">100.0</setting>
+        <setting key="adhesion tendency">0</setting>
+        <setting key="retraction amount">4.5</setting>
+        <setting key="surface energy">100</setting>
+        <setting key="build volume temperature">28</setting>
+        <setting key="retraction speed">28.0</setting>
+          <!-- Weedo X40 Nozzle Parameter-->
+        <machine>
+            <machine_identifier manufacturer="WEEDO" product="Weedo X40"/>
+            <setting key="print cooling">100</setting>
+            <hotend id="0.4mm Weedo Nozzle">
+                <setting key="print temperature">195.0</setting>
+            </hotend>    
+            <hotend id="0.4mm Zodiac Nozzle">
+                <setting key="print temperature">200.0</setting>
+            </hotend>
+        </machine>
+    </settings>
+</fdmmaterial>
+
